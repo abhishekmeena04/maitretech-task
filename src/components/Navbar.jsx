@@ -51,7 +51,7 @@ const Navbar = () => {
       {/* footer */}
       <div className="main">
         <Swiper
-          spaceBetween={30}
+          spaceBetween={0}
           centeredSlides={true}
           autoplay={{
             delay: 5000,
@@ -62,7 +62,7 @@ const Navbar = () => {
           }}
           loop={true}
           navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
+          modules={[Autoplay, Navigation]}
           className="mySwiper"
         >
           <SwiperSlide>

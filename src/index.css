@@ -58,7 +58,86 @@ a {
   gap: 40px;
   margin-left: 110px;
 }
-
+.home {
+  padding: 7px 0px;
+}
+.home:hover {
+  border-top: 1px solid #812868;
+  border-bottom: 1px solid #812868;
+  color: #812868;
+}
+.about:hover {
+  border-top: 1px solid #812868;
+  border-bottom: 1px solid #812868;
+  color: #812868;
+}
+.about {
+  padding: 7px 0px;
+}
+.courses:hover {
+  border-top: 1px solid #812868;
+  border-bottom: 1px solid #812868;
+  color: #812868;
+}
+.courses {
+  padding: 7px 0px;
+}
+.activities:hover {
+  border-top: 1px solid #812868;
+  border-bottom: 1px solid #812868;
+  color: #812868;
+}
+.activities {
+  padding: 7px 0px;
+}
+.art-gallery:hover {
+  border-top: 1px solid #812868;
+  border-bottom: 1px solid #812868;
+  color: #812868;
+}
+.art-gallery {
+  padding: 7px 0px;
+}
+.franchise:hover {
+  border-top: 1px solid #812868;
+  border-bottom: 1px solid #812868;
+  color: #812868;
+}
+.franchise {
+  padding: 7px;
+}
+.online-classes:hover {
+  border-top: 1px solid #812868;
+  border-bottom: 1px solid #812868;
+  color: #812868;
+}
+.online-classes {
+  padding: 7px 0px;
+}
+.videos:hover {
+  border-top: 1px solid #812868;
+  border-bottom: 1px solid #812868;
+  color: #812868;
+}
+.videos {
+  padding: 7px 0px;
+}
+.payfee:hover {
+  border-top: 1px solid #812868;
+  border-bottom: 1px solid #812868;
+  color: #812868;
+}
+.payfee {
+  padding: 7px 0px;
+}
+.contact:hover {
+  border-top: 1px solid #812868;
+  border-bottom: 1px solid #812868;
+  color: #812868;
+}
+.contact {
+  padding: 7px 0px;
+}
 /* main */
 .main {
   height: 82vh;
@@ -86,8 +165,64 @@ a {
   height: 100%;
   object-fit: cover;
 }
+/* page2 */
+::-webkit-scrollbar {
+  display: none;
+}
+.top {
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 20px 200px;
+}
+.div {
+  width: 60vw;
+  height: 4vh;
+}
+.h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  font-size: 19px;
+}
+.center {
+  text-align: center;
+  padding: 10px 150px;
+}
+.welcome {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  opacity: .7;
+  padding-top: 10px;
+}
+.national{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+button{
+  padding: 15px 35px;
+  border-radius: 30px;
+  background: linear-gradient( 90deg, rgba(177, 30, 111, 1) 0%, rgba(74, 14, 192, 1) 100%) !important;
+  border: none;
+  margin-bottom: 0vh;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
 @media only screen and (max-width: 550px) {
-  .header{
+  .header {
     width: 100vw;
     display: block;
     height: 13vh;
@@ -96,58 +231,86 @@ a {
     color: white;
     font-size: 14px;
   }
-  .h1{
+  .h1 {
     text-align: center;
     font-size: 17px;
     padding: 15px 10px;
   }
-  .icons{
+  .icons {
     display: none;
   }
-  a{
+  a {
     font-size: 10px;
   }
-  .right{
+  .right {
     text-align: center;
     gap: 10px;
     padding: 0px 20px;
     justify-content: space-between;
   }
-  .main{
+  .main {
     width: 100vw;
     height: 30vh;
   }
-  .rig{
+  .rig {
     margin-left: px;
-    gap: 10px;
+    gap: 15px;
   }
-  .footer{
+  .footer {
     width: 100vw;
     padding: 0;
   }
-  .lef img{
+  .lef img {
     width: 10vh;
     margin-left: 20px;
   }
-  .activities{
+  .activities {
     display: none;
   }
-  .art-gallery{
+  .art-gallery {
     display: none;
   }
-  .franchise{
+  .franchise {
     display: none;
   }
-  .online-classes{
+  .online-classes {
     display: none;
   }
-  .videos{
+  .videos {
     display: none;
   }
-  .payfee{
+  .payfee {
     display: none;
   }
-  .contact{
+  .contact {
     display: none;
+  }
+  .top{
+    padding: 0px;
+    gap: 10px;
+    display: block;
+  }
+  .div{
+    width: 90vw;
+    margin-left: 13px;
+  }
+  .h2{
+    margin-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+  }
+  .center{
+    padding: 40px 20px;
+  }
+  .welcome{
+    text-align: center;
+    font-size: 6vw;
+  }
+  p{
+    margin-top: 20px;
+    font-size: 5vw;
+  }
+  button{
+    padding: 13px 27px;
   }
 }
