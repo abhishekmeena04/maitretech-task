@@ -330,6 +330,56 @@ button {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
   margin-left: 70px;
 }
+/* PAGE----5 */
+.page5{
+  height: 270vh;
+  width: 100vw;
+}
+.cards{
+  height: 43vh;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  gap: 15px;
+  
+}
+.card{
+  height: 42vh;
+  width: 20vw;
+  background-color: #f954a4;
+  border-radius: 10px;
+}
+.card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.cart img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.cart{
+  height: 42vh;
+  width: 40vw;
+  background-color: #f954a4;
+  border-radius: 10px;
+}
+.car{
+  width: 80vw;
+  height: 42vh;
+  background-color: #f954a4;
+  border-radius: 10px;
+
+}
+.car img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
 @media only screen and (max-width: 550px) {
   .header {
     width: 100vw;
@@ -468,11 +518,14 @@ button {
     height: 100%;
     width: 100%;
   }
-  
+  .page4{
+    height: 305vh;
+  }
   .our{
     width: 100vw;
     font-size: 9vw;
     margin-top: 20vw;
+    margin-bottom: 5vw;
   }
   .box {
     height: 45vh;
@@ -486,7 +539,7 @@ button {
     display: flex;
     flex-direction: column;
     border-radius: 6px;
-    height: 200vh;
+    /* height: 250vh; */
   }
   .cartoon{
     width: 100%;
@@ -495,8 +548,30 @@ button {
   .text{
     font-size: 4vw;
     margin-bottom: 9vw;
+    margin-left: 45px;
   }
   .btn{
-    text-align: center;
+    margin-left: 80px;
+  }
+  .page5{
+    height: 100vh;
+  }
+  .cards{
+    height: 20vh;
+    width: 100vw;
+    gap: 4px;
+    padding: 0px 10px;
+  }
+  .card{
+    height: 19vh;
+    width: 70vw;
+  }
+  .cart{
+    height: 17vh;
+    width: 50vw;
+    margin-left: 4px;
+  }
+  .car{
+    width: 100vw;
   }
 }
