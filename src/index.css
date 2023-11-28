@@ -200,32 +200,91 @@ a {
 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
-  opacity: .7;
+  opacity: 0.7;
   padding-top: 10px;
 }
-.national{
+.national {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 800;
   margin-top: 20px;
   margin-bottom: 30px;
   font-size: 20px;
 }
-button{
+button {
   padding: 15px 35px;
   border-radius: 30px;
-  background: linear-gradient( 90deg, rgba(177, 30, 111, 1) 0%, rgba(74, 14, 192, 1) 100%) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(177, 30, 111, 1) 0%,
+    rgba(74, 14, 192, 1) 100%
+  ) !important;
   border: none;
-  margin-bottom: 0vh;
+  margin-bottom: 4vh;
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 17px;
   font-weight: 700;
 }
+/* PAGE------3 */
+.page3 {
+  height: 99vh;
+  width: 100vw;
+  background-image: url(https://www.nifafinearts.com/images/appbg.jpg);
+  display: flex;
+}
+.l {
+  height: 99vh;
+  width: 45vw;
+  padding: 7vw 9.9vw;
+}
+.l-container {
+  height: 70vh;
+  width: 30vw;
+}
+.online {
+  font-size: 2vw;
+  color: white;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.dear {
+  color: white;
+  font-weight: 3vw;
+  font-size: 1.2vw;
+  margin-top: 0.5vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.wish {
+  margin-top: 10px;
+}
+button {
+  margin-top: 1vw;
+  padding: 10px 20px;
+  border: 2px solid white;
+}
+.download {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2vw;
+}
+.img1 {
+  height: 10%;
+  margin-top: 1vw;
+}
+.img2 {
+  height: 10%;
+  margin-left: 1vw;
+}
+.r {
+  height: 99vh;
+  width: 55vw;
+}
+
 @media only screen and (max-width: 550px) {
   .header {
     width: 100vw;
     display: block;
-    height: 13vh;
+    height: 12vh;
   }
   .number1 {
     color: white;
@@ -285,32 +344,78 @@ button{
   .contact {
     display: none;
   }
-  .top{
+  .top {
     padding: 0px;
     gap: 10px;
     display: block;
   }
-  .div{
+  .div {
     width: 90vw;
     margin-left: 13px;
   }
-  .h2{
+  .h2 {
     margin-left: 20px;
     margin-top: 16px;
-    margin-bottom: 4px;
   }
-  .center{
+  .center {
     padding: 40px 20px;
   }
-  .welcome{
+  .welcome {
     text-align: center;
     font-size: 6vw;
   }
-  p{
+  p {
     margin-top: 20px;
     font-size: 5vw;
   }
-  button{
-    padding: 13px 27px;
+  button {
+    padding: 13px 25px;
+  }
+  .page3 {
+    flex-direction: column;
+    height: 99vh;
+    width: 100vw;
+    background-image: url(https://www.nifafinearts.com/images/appbg.jpg);
+  }
+  .l {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+  }
+  .l-container {
+    height: 60vh;
+    width: 80vw;
+  }
+  .online {
+    font-size: 8vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .dear {
+    color: white;
+    font-weight: 3vw;
+    font-size: 3.9vw;
+    margin-top: 0.5vw;
+    margin-bottom: 6vw;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .download {
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 5vw;
+    margin-bottom: 2vw;
+  }
+  .r {
+    height: 55vh;
+    width: 100vw;
+  }
+  iframe {
+    height: 100%;
+    width: 100%;
   }
 }
