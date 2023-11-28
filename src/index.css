@@ -384,6 +384,10 @@ button {
   background-image: url(https://www.nifafinearts.com/images/student-talk.jpg);
 }
 /* footerr */
+.foot{
+  height: 80vh;
+  width: 100vw;
+}
 .footer-section {
   background: #151414;
   position: relative;
@@ -791,7 +795,7 @@ button {
     width: 100%;
   }
   .page4 {
-    height: 305vh;
+    height: 620vh;
   }
   .our {
     width: 100vw;
@@ -811,7 +815,7 @@ button {
     display: flex;
     flex-direction: column;
     border-radius: 6px;
-    /* height: 250vh; */
+    height: 200vh;
   }
   .cartoon {
     width: 100%;
@@ -826,7 +830,7 @@ button {
     margin-left: 80px;
   }
   .page5 {
-    height: 100vh;
+    height: 155vh;
   }
   .cards {
     height: 20vh;

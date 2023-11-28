@@ -3,6 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
+    <div className="foot">
       <footer class="footer-section">
         <div class="container">
           <div class="footer-cta pt-5 ">
@@ -184,6 +185,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      </div>
     </>
   );
 };
