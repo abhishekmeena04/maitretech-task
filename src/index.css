@@ -496,4 +496,8 @@ button {
     font-size: 4vw;
     margin-bottom: 9vw;
   }
+  .btn{
+    margin-left: 80px;
+    padding: 10px 18px;
+  }
 }
