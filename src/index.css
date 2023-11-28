@@ -87,75 +87,67 @@ a {
   object-fit: cover;
 }
 @media only screen and (max-width: 550px) {
-  .header {
-    width: 300vw;
-    height: 28vh;
+  .header{
+    width: 100vw;
     display: block;
-  }
-  .h1 {
-    font-size: 12vw;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    height: 13vh;
   }
   .number1 {
-    margin: 0 auto;
-    font-size: 30px;
+    color: white;
+    font-size: 14px;
   }
-  a {
-    font-size: 30px;
+  .h1{
+    text-align: center;
+    font-size: 17px;
+    padding: 15px 10px;
   }
-  .icons {
-    font-size: 30px;
+  .icons{
+    display: none;
   }
-  .right {
-    padding: 0px 40px 0px 40px;
+  a{
+    font-size: 10px;
   }
-  .footer {
-    width: 300vw;
-    height: 20vh;
-    padding: 0px 50px;
+  .right{
+    text-align: center;
+    gap: 10px;
+    padding: 0px 20px;
+    justify-content: space-between;
   }
-  .lef img {
-    width: 50vw;
+  .main{
+    width: 100vw;
+    height: 30vh;
   }
-  .rig {
-    padding: 0px;
-    gap: 20px;
-    margin-left: 50px;
+  .rig{
+    margin-left: px;
+    gap: 10px;
   }
-  .home {
-    font-size: 30px;
+  .footer{
+    width: 100vw;
+    padding: 0;
   }
-  .about {
-    font-size: 30px;
+  .lef img{
+    width: 10vh;
+    margin-left: 20px;
   }
-  .courses {
-    font-size: 30px;
-  }
-  .activities {
-    font-size: 30px;
+  .activities{
+    display: none;
   }
   .art-gallery{
-    font-size: 30px;
-  }
-  .online-classes{
-    font-size: 30px;
+    display: none;
   }
   .franchise{
+    display: none;
+  }
+  .online-classes{
     display: none;
   }
   .videos{
     display: none;
   }
-  .contact{
-    display: none;
-  }
   .payfee{
     display: none;
   }
-  .main{
-    width: 300vw;
-    height: 100vh;
+  .contact{
+    display: none;
   }
 }
