@@ -497,7 +497,6 @@ button {
     margin-bottom: 9vw;
   }
   .btn{
-    margin-left: 80px;
-    padding: 10px 18px;
+    text-align: center;
   }
 }
